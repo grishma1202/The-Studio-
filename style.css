@@ -1,0 +1,297 @@
+/* Home Page */
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right:25px ;
+}
+
+/* navbar */
+.navbar{
+    background-color: #e0dede;
+}
+
+/* brand */
+.brand{
+    margin: 100px auto;
+}
+
+.col-5{
+    width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* offer */
+.img-fluid{
+    height: 450px;
+    width: 400px;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.card{
+    background: #e0dede;
+}
+
+/* Featured */
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 1.0s;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: black;
+}
+
+.title::after{
+    content: '';
+    background-color: rgb(58, 56, 56);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h5{
+    color: black;
+    font-weight: normal;
+}
+
+.col-4 p{
+    font-size: 17px;
+}
+
+.col-4:hover{
+    transform: translateY(-08px);
+}
+
+.rafting .fa{
+    color: black;
+}
+
+/* Reviews */
+.reviews{
+    padding: 40px 0;
+    color: #434343;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border-review{
+    width: 80px;
+    height: 5px;
+    background: rgb(58, 56, 56);
+    margin: 26px auto;
+    border-radius: 5px;
+}
+
+.row-review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-review{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.review{
+    background:#e0dede;
+    padding: 30px;
+}
+
+.review img{
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: rgb(58, 56, 56);
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #e5e5e5;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom:20px;
+}
+
+footer .logo{
+    height: 40%;
+    width: 30%;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #434343;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #434343;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover, footer a:hover{
+    color: #434343;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+/* Contact Us */
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span, #form-details form{
+    font-size: 12px;
+}
+
+#contact-details .details h2, #form-details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i{
+    font-size: 27px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 17px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input, #form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e0dede;
+}
+
+.msg{
+    font-size: 20px;
+    font-weight: bold;
+}
